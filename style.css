@@ -25,6 +25,10 @@ header{
     cursor: pointer;
 }
 
+.fa-pen:hover, .fa-trash:hover{
+    cursor: pointer;
+}
+
 #count{
     color: rgb(255, 0, 0);
     font-size: large;
