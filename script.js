@@ -36,7 +36,8 @@ function updateUI() {
 
 card.addEventListener('click', (e) => {
     const index = e.target.getAttribute('data-index');
-    if (!index) return; // Ignore clicks outside icons
+    // Ignore clicks outside icons
+    if (!index) return; 
 
     if (e.target.classList.contains('fa-pen')) {
         // Edit Task
